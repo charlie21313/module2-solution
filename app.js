@@ -21,11 +21,11 @@
   }
 
   function ShoppingListCheckOffService () {
-    var buyArray = [{'amount': 2, 'name': 'pizzas'},
-                    {'amount': 1, 'name': 'tofurkey'},
-                    {'amount': 1, 'name': 'burbon'},
-                    {'amount': 1, 'name': 'scotch'},
-                    {'amount': 1, 'name': 'beer'}];
+    var buyArray = [{'amount': 1, 'name': 'Milk'},
+                    {'amount': 10, 'name': 'Boneless Chicken Legs'},
+                    {'amount': 12, 'name': 'Peach'},
+                    {'amount': 1, 'name': 'Bread'},
+                    {'amount': 1, 'name': 'Cheese Spread'}];
     var boughtArray = [];
 
     this.markAsBought = function (index) {
